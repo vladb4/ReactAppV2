@@ -69,7 +69,7 @@ gulp.task('images', function(){
     .pipe(gulp.dest(config.paths.dist + '/images'))
     .pipe(connect.reload());
     //publish favicon
-    gulp.src('./src/favicon.ico')
+    gulp.src('./src/favicon.8f6c04a2.ico')
         .pipe(gulp.dest(config.paths.dist));
 });
 
